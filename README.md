@@ -1,16 +1,16 @@
 # clean-code-javascript
 
-## Table of Contents
+## Mục lục
 
-1. [Introduction](#introduction)
-2. [Variables](#variables)
-3. [Functions](#functions)
-4. [Objects and Data Structures](#objects-and-data-structures)
-5. [Classes](#classes)
+1. [Mục mục](#muc-luc)
+2. [Biến số](#bien-so)
+3. [Hàm](#ham)
+4. [Đối tượng và cấu trúc dữ liệu](#doi-tuong-va-cau-truc-du-lieu)
+5. [Lớp đối tượng](#lop-doi-tuong)
 6. [SOLID](#solid)
-7. [Testing](#testing)
-8. [Concurrency](#concurrency)
-9. [Error Handling](#error-handling)
+7. [Kiểm thử](#kiem-thu)
+8. [Đồng thời](#dong-thoi)
+9. [Xử lý ngoại lệ](#xu-ly-ngoai-le)
 10. [Formatting](#formatting)
 11. [Comments](#comments)
 12. [Translation](#translation)
