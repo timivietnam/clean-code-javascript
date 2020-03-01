@@ -15,33 +15,22 @@
 11. [Comments](#comments)
 12. [Translation](#translation)
 
-## Introduction
+## Giới thiệu
 
-![Humorous image of software quality estimation as a count of how many expletives
-you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
+![Hình ảnh hài hước về ước tính chất lượng của phần mềm như đếm có bao nhiêu câu chửi bạn hét khi đọc mã](https://www.osnews.com/images/comics/wtfm.jpg)
 
-Software engineering principles, from Robert C. Martin's book
+Nguyên tắc kỹ thuật phần mềm, từ sách của Robert C. Martin's
 [_Clean Code_](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for JavaScript. This is not a style guide. It's a guide to producing
-[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript.
+phỏng theo JavaScript. Đây không phải hướng dẫn mẫu. Đó là hướng dẫn để sản xuất phần mềm [có thể đọc, có thể tái sử dụng và có thể tái cấu trúc] (https://github.com/ryanmcdermott/3rs-of-software-arch architecture) bằng JavaScript.
 
-Not every principle herein has to be strictly followed, and even fewer will be
-universally agreed upon. These are guidelines and nothing more, but they are
-ones codified over many years of collective experience by the authors of
+Không phải mọi nguyên tắc trong tài liệu này đều phải được tuân thủ nghiêm ngặt, và thậm chí ít nhất sẽ được thống nhất trên toàn cầu. Đây là những hướng dẫn và không có gì khác, nhưng chúng là những thứ được mã hóa qua nhiều năm kinh nghiệm tập thể của các tác giả của
 _Clean Code_.
 
-Our craft of software engineering is just a bit over 50 years old, and we are
-still learning a lot. When software architecture is as old as architecture
-itself, maybe then we will have harder rules to follow. For now, let these
-guidelines serve as a touchstone by which to assess the quality of the
-JavaScript code that you and your team produce.
+Nghề kỹ sư phần mềm của chúng tôi chỉ hơn 50 tuổi một chút và chúng tôi vẫn đang học hỏi rất nhiều.
+Khi kiến trúc phần mềm cũng cũ như kiến trúc, có lẽ chúng ta sẽ có những quy tắc khó hơn để tuân theo. Hiện tại, hãy để các nguyên tắc này đóng vai trò là nền tảng để đánh giá chất lượng mã JavaScript mà bạn và nhóm của bạn tạo ra.
 
-One more thing: knowing these won't immediately make you a better software
-developer, and working with them for many years doesn't mean you won't make
-mistakes. Every piece of code starts as a first draft, like wet clay getting
-shaped into its final form. Finally, we chisel away the imperfections when
-we review it with our peers. Don't beat yourself up for first drafts that need
-improvement. Beat up the code instead!
+Một điều nữa: biết những điều này sẽ không ngay lập tức giúp bạn trở thành một nhà phát triển phần mềm tốt hơn và làm việc với họ trong nhiều năm không có nghĩa là bạn sẽ không phạm sai lầm.Mỗi đoạn mã bắt đầu như một bản nháp đầu tiên, giống như đất sét ướt được định hình thành dạng cuối cùng của nó. Cuối cùng, chúng tôi đục bỏ những điểm không hoàn hảo khi chúng tôi xem xét nó với các đồng nghiệp của mình. Đừng tự đánh mình vì những bản nháp đầu tiên cần
+cải thiện. Thay vào đó hãy đánh mã!
 
 ## **Variables**
 
